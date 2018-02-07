@@ -1,0 +1,9 @@
+#paragraph1 {
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+#paragraph2 {
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
