@@ -1,0 +1,13 @@
+#para_cut {
+    background-color: yellow;
+    max-width: 300px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#para_overflow {
+    background-color: red;
+    width: 600px;
+    max-height: 200px;
+    overflow: scroll;
+}

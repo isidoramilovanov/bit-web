@@ -1,0 +1,25 @@
+#circle_markers {
+    list-style-type: circle;
+}
+
+#squares_markers {
+    list-style-type: square;
+}
+
+#upper_alphabet {
+    list-style-type: upper-alpha;
+}
+
+#roman_numbers {
+    list-style-type: upper-roman;
+}
+
+.image_marker {
+    list-style-image: url(./hash_tag.png);
+    width: 200px;
+    margin: 0 auto;
+}
+
+#inside_box {
+    list-style-position: inside;
+}
