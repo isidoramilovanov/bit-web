@@ -1,0 +1,65 @@
+#form {
+    background-color: gray;
+    width: 300px;
+    padding: 23px;
+    margin: 5% auto;
+}
+
+label, input {
+    display: block;
+
+}
+
+h1 {
+    text-align: center;
+    color: deepskyblue;
+    font-family: cursive;
+    
+}
+
+input {
+    width: 90%;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 8px 9px;
+    padding-left: 27px;
+    border-radius: 5px;
+}
+
+.btn {
+    float: right;
+    margin-top: 10px;
+    background-color: red;
+    color: beige;
+    width: 25%;
+    padding: 2px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+label {
+    padding-top: 10px;
+}
+
+input#name {
+    background-image: url('./twitter.png');
+}
+
+input#email {
+    background-image: url('./email.png');
+}
+
+input#contact {
+    background-image: url('./web.png');
+}
+
+input#address {
+    background-image: url('./twitter.png');
+}
+
+span {
+    color: orange;
+}
