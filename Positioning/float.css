@@ -64,9 +64,14 @@ header {
     width: 100%;
 }
 
-#all_items {
+/* #all_items {
+    overflow: hidden;
+} */
+
+main {
     overflow: hidden;
 }
+
 
 /*
 .clear-fix {
