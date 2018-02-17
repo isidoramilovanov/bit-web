@@ -22,12 +22,12 @@ header h2 {
 
 button {
     background-color: rgb(40, 101, 194);
-    padding: 2%;
+    padding: 2% 4%;
     border: 1px solid rgb(40, 101, 194);
-    border-radius: 25%;
+    border-radius: 50px;
     margin-bottom: 5%;
     color: white;
-    font-size: 15px;
+    font-size: 22px;
 
 }
 
@@ -94,6 +94,7 @@ img {
 #people {
     text-align: center;
     margin: 0;
+    font-size: 40px;
 }
 
 .people_says img {
@@ -124,7 +125,62 @@ h4 {
 
 .people_says p {
     margin: 0 2% 2% 3%;
+    color: white;
 }
+
+i {
+    color: white;
+}
+
+#get_in_touch {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 40px;
+}
+
+#contact_us {
+    background-color: rgb(120, 240, 204);
+    width: 100%;
+}
+
+#contact {
+    font-size: 34px; 
+    text-align: center;
+    color: white;
+}
+
+#phone {
+    width: 9%;
+}
+
+#img_ps {
+    margin-left: 33%;
+    margin-bottom: 0;
+}
+
+#number {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+#email {
+    width: 9%;
+}
+
+#email_us {
+    margin-left: 33%;
+}
+
+#mail {
+    display: inline-block;
+    color: white;
+    font-size: 22px;
+
+}
+
+
+
 
 
 
@@ -164,20 +220,48 @@ nav ul {
      margin-top: 10;
 }
 
+#welcome p{
+    padding-right: 50%
+}
+
 .whoWeAre {
     position: relative;
 }
 
 .whoWeAre img {
     position: absolute;
-    top: 27%;
+    top: 0%;
     right: 0;
-    width: 45%;
+    width: 47%;
 
 }
 
 .whoWeAre p:nth-child(3) {
     width: 50%;
+}
+
+#people {
+    padding: 8%;
+}
+
+.people_says {
+    margin: 0;
+    display: inline-block;
+    width: 40%;
+}
+
+#person1 {
+    margin: 0 0 10% 7%;
+}
+
+#person2{
+    float: right;
+    margin-right: 2%;
+    margin: 0 6% 0 5%;
+}
+
+#person3 {
+    margin: -7% 0 0 7%;
 }
 
 } 
@@ -234,6 +318,38 @@ nav li {
 #aboutUs {
     margin: 5% 0 5% 0;
 }
+
+#people {
+    padding: 10% 0 4% 0;
+}
+
+.people_says {
+    width: 25%;
+}
+
+.people_says p{
+    
+    padding: 0 15% 20 7%;
+    
+}
+
+#person1 {
+    margin: 0 2% 5% 7%;
+    padding: 1%;
+}
+
+#person2 {
+    float: none;
+    margin: 0 2% 5% 0%;
+    padding: 1%;
+}
+
+#person3 {
+    margin: 0 0% 5% 0%;
+    padding: 1%;
+}
+
+
 
 
  }
