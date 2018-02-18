@@ -141,6 +141,7 @@ i {
 #contact_us {
     background-color: rgb(120, 240, 204);
     width: 100%;
+    margin-bottom: 0;
 }
 
 #contact {
@@ -154,7 +155,11 @@ i {
 }
 
 #img_ps {
-    margin-left: 33%;
+    margin-bottom: 0;
+    width: 50%;
+    position: relative;
+    left: 33%;
+
     margin-bottom: 0;
 }
 
@@ -164,12 +169,15 @@ i {
     font-size: 20px;
 }
 
-#email {
-    width: 9%;
+#email_us {
+    width: 55%;
+    position: relative;
+    left: 33%;
 }
 
-#email_us {
-    margin-left: 33%;
+#email {
+    width: 9%;
+    
 }
 
 #mail {
@@ -179,10 +187,61 @@ i {
 
 }
 
+#connect_us {
+    width: 100%;
+    background-color: rgb(221, 79, 127);
+    padding-bottom: 28%;
+    margin-bottom: 0;
 
+}
 
+#connect {
+    text-align: center;
+    color: white;
+    font-size: 34px;
+}
 
+#social_net img {
+    width: 7%;
+    padding: 5%
+}
 
+#social_net {
+    width: 50%;
+    position: absolute;
+    right: 18%;
+}
+
+#our_address {
+    width: 100%;
+    background-color: rgb(79, 79, 228);
+    margin-bottom: 0;
+}
+
+#address {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+}
+
+#add {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 4%;
+}
+
+#house {
+    width: 70%;
+    position: relative;
+    left: 20%
+}
+
+#our_house {
+    background-color: lightblue;
+    padding: 0px 14%;
+    margin-bottom: 0;
+}
 
 
 
