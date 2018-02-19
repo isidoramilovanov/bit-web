@@ -15,7 +15,7 @@ header {
 }
 
 header h2 {
-    padding: 20% 7% 10% 7%;
+    padding: 20% 7% 2% 7%;
     color: white;
     margin-top: 0px;
 }
@@ -25,9 +25,9 @@ button {
     padding: 2% 4%;
     border: 1px solid rgb(40, 101, 194);
     border-radius: 50px;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     color: white;
-    font-size: 22px;
+    font-size: 15px;
 
 }
 
@@ -42,7 +42,7 @@ span {
     border-right: none;
 }
 
-nav ul {
+#top ul {
     text-align: center;
     background-color: rgb(128, 204, 255);
     color: white;
@@ -51,7 +51,7 @@ nav ul {
     margin-right: 3%;
 }
 
-nav li {
+#top li {
     padding: 2%;
 }
 
@@ -241,6 +241,69 @@ i {
     background-color: lightblue;
     padding: 0px 14%;
     margin-bottom: 0;
+}
+
+iframe {
+    width: 100%;
+}
+
+
+#mailUs{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 12%;
+    margin-bottom: 8%;
+    color: black;
+    font-weight: 500;
+}
+
+form input {
+    display: block;
+    margin: 3%;
+    padding: 2%;
+    width: 90%;
+    border: 1px solid black;
+}
+
+form textarea {
+    display: block;
+    margin: 3%;
+    padding: 2%;
+    width: 90%;
+    font-family: inherit;
+    border: 1px solid black;
+}
+
+#submit {
+    width: 25%;
+    background-color: #ff9800;
+    border: 1px solid #ff9800;
+    border-radius: 7px;
+}
+
+footer{
+    background-color: #212121;
+    color:white;
+    padding: 5%;
+    font-weight: 400;
+    text-align: center
+}
+
+#navBottom li {
+    display: inline;
+    padding: 1%;
+}
+
+#navBottom li {
+    width: 90%
+}
+
+#navBottom a {
+    color: white;
+}
+
+footer p {
+    padding: 3% 3% 3% 10%;
 }
 
 
