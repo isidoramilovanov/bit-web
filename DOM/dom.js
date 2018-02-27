@@ -30,15 +30,24 @@
 // }
 // ls2();
 
-function find(){
-var ac = document.getElementsByClassName("a")[0];
-ac.className = "";
-var sib = ac.parentElement.parentElement.previousElementSibling.firstElementChild.firstElementChild;
-sib.className="a";
+// function find(){
+// var ac = document.getElementsByClassName("a")[0];
+// ac.className = "";
+// var sib = ac.parentElement.parentElement.previousElementSibling.firstElementChild.firstElementChild;
+// sib.className="a";
 
+// }
+
+// find();
+
+function sel() {
+    var picture = document.getElementsByClassName('selected')[0];
+    picture.className = '';
+    var picture1 = picture.parentElement.nextElementSibling.firstElementChild.nextElementSibling;
+    picture1.className = 'selected';
 }
 
-find();
+sel();
 
 
 
