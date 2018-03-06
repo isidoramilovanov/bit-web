@@ -21,5 +21,6 @@ $('img').each(function(index, element){
 $('img').each(function(index, element){
     if(parseInt($(this).css('width')) > 400){
         $(element).css('border', '3px solid #e02967');
+        return false;
     }
 });
